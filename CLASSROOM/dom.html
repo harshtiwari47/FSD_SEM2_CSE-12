@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat commodi
+      aperiam aspernatur eaque, voluptatibus non vel doloremque explicabo
+      voluptate magnam! Iusto odio recusandae rerum consequatur, voluptas
+      adipisci qui dignissimos praesentium.
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque excepturi
+      provident sint nulla amet voluptatum, alias velit? Ratione rerum excepturi
+      cum, neque odit architecto molestiae, perspiciatis amet consectetur ipsa
+      dolorem!
+    </p>
+
+    <script>
+      let para = document.querySelectorAll("p");
+
+      para[0].classList.add("first");
+      para[1].classList.add("second");
+
+      para[0].innerHTML = `<h1>First Paragraph</h1>`;
+      para[0].style.color = "red";
+    </script>
+  </body>
+</html>
