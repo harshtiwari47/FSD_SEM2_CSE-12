@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+}
+
+.container{
+    margin: 20px;
+    padding: 30px;
+    width: 400px;
+    display: flexbox;
+    border-radius: 10px;
+    background-color: aquamarine;
+    box-sizing: border-box;
+    box-shadow: 10px;
+}
+
+.container button{
+    color: aqua;
+    background-color: blue;
+}
+
+.container button:hover{
+    color: red;
+}
+button{
+    border-radius: 10px;
+}
+input{
+    border-radius: 10px;
+}
