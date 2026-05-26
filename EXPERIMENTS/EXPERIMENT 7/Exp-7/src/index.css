@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    min-height: 100vh;
+}
+
+.App{
+    text-align: center;
+    padding: 40px;
+}
+
+h1{
+    color: rgb(6, 8, 151);
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.student-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.student-card{
+    background-color: white;
+    width: 280px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(176, 154, 154, 0.2);
+    transition: 0.3s;
+}
+
+.student-card:hover{
+    transform: translateY(-10px);
+}
+
+.student-card h2{
+    color: #0b0b0b;
+    margin-bottom: 15px;
+}
+
+.student-card p{
+    font-size: 18px;
+    color: #5a5454;
+    margin: 8px 0;
+}
