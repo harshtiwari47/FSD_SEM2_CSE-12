@@ -1,0 +1,34 @@
+body {
+    font-family: Arial;
+    background-color: #a6d7e3;
+    text-align: center;
+}
+.container {
+    width: 650px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgb(22, 147, 130);
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+input {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 15px;
+}
+button {
+    padding: 8px 12px;
+    margin: 5px;
+    background-color: #28a745;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #2200ff;
+}
+#output {
+    margin-top: 20px;
+    text-align: center;
+}
